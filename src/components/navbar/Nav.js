@@ -37,7 +37,7 @@ export default function NavbarComponent() {
               id="navhead"
               style={{
                 marginLeft: "21px",
-                marginRight: "210px",
+                // marginRight: "210px",
                 boederRight: "1px solid #fbd9ad",
                 paddingTop: "6px",
                 color: "#fbd9ad",
@@ -58,10 +58,10 @@ export default function NavbarComponent() {
           <span></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav" className="navbarmain">
-          <Nav className="ml-auto " defaultActiveKey="#home" style={{alignItems:"right"}}>
+          <Nav className="ml-auto " defaultActiveKey="#home" >
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px", alignItems:"right" }} /> 
+                <AiOutlineHome style={{ marginBottom: "2px" }} /> 
                 <p>Home</p>
               </Nav.Link>
             </Nav.Item>

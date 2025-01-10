@@ -91,6 +91,13 @@ export default function Home() {
               </div>
             </Col>
             <Col md={4} style={{ paddingBottom: 20 }}>
+            <div className="img-home-main">
+                    <img
+                      src="./profile.jpg"
+                      alt="home pic"
+                      className="img-fluid"
+                    />
+                  </div>
             </Col>
           </Row>
         </Container>

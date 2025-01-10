@@ -69,13 +69,10 @@ html {
 .navbar-toggler {
   padding: 0.25rem 1.5rem !important;
   position: relative !important;
-  background-color: rgba(245, 222, 179, 0.792) !important;
+  background-color: rgba(244, 186, 79, 0.792) !important;
   border-color:transparent !important;
 }
 
-.navbarmain{
-  margin-left: 2100px;
-}
 .navbar-toggler span {
   display: block !important;
   background-color: #0B192C !important;
@@ -122,9 +119,16 @@ html {
 }
 @media (max-width: 1400px) {
   .navbarmain{
+    margin-left: 400px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .navbarmain{
     margin-left: 200px;
   }
 }
+
 @media (max-width: 1050px) {
   .navbarmain{
     margin-left: 50px;
@@ -142,6 +146,8 @@ html {
   }
   .img-fluid {
     width: 230px !important;
+    display:none;
+
   }
   .img-home-main{
     width: 100% !important;
@@ -157,21 +163,26 @@ html {
 }
 .img-fluid {
   width: 384px;
+  border-radius:50%;
 }
+
 .logo {
   height: 1.8em !important;
   width: 1.8em !important;
   border-radius: 50% ;
 }
 
-.navbar-nav .nav-link {
+.navbar-nav {
   color: #eedba2f3 !important;
   padding-right: 1rem !important;
-  padding-left: 1rem !important;
+  /* margin-left: auto ; */
 }
 
 .nav-link {
-  padding: 0.8rem 1rem !important;
+  /* padding: 0.8rem 1rem !important; */
+  color: #eedba2f3 !important;
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
 }
 
 @media (max-width: 767px) {
