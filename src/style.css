@@ -53,7 +53,7 @@ html {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: #212038d8 !important;
+  background-color: #0B192C !important;
   transition: all 0.3s ease-out 0s !important;
   box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
   backdrop-filter: blur(15px) !important;
@@ -69,16 +69,16 @@ html {
 .navbar-toggler {
   padding: 0.25rem 1.5rem !important;
   position: relative !important;
-  background-color: transparent !important;
-  border-color: transparent !important;
+  background-color: rgba(245, 222, 179, 0.792) !important;
+  border-color:transparent !important;
 }
 
 .navbarmain{
-  margin-left: 210px;
+  margin-left: 2100px;
 }
 .navbar-toggler span {
   display: block !important;
-  background-color: #be50f4 !important;
+  background-color: #0B192C !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -135,7 +135,7 @@ html {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: #181a27 !important;
+    background-color: #0B192C !important;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
@@ -161,10 +161,11 @@ html {
 .logo {
   height: 1.8em !important;
   width: 1.8em !important;
+  border-radius: 50% ;
 }
 
 .navbar-nav .nav-link {
-  color: #fbd9ad !important;
+  color: #eedba2f3 !important;
   padding-right: 1rem !important;
   padding-left: 1rem !important;
 }
@@ -213,7 +214,7 @@ html {
 }
 
 /* --------- */
-/* Home section */
+/* HomePage */
 /* --------- */
 .wave {
   animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
@@ -404,4 +405,60 @@ html {
 
 .iconcolour {
   color: #000000 ;
+}
+
+/* --------- */
+/* Footer */
+/* --------- */
+.footer {
+  background-color: rgb(10, 4, 22);
+  bottom: 0 !important;
+  padding-top: 10px !important;
+  padding-bottom: 8px !important ;
+  z-index: 6;
+}
+.footer-copywright {
+  text-align: center !important;
+  z-index: 7;
+}
+
+.footer-body {
+  text-align: center !important;
+  z-index: 7;
+}
+.aboutme-heading{
+  font-size: 4.6em;
+  color:#fbd9ad;
+}
+@media (max-width: 767px) {
+  .footer-copywright {
+    text-align: center !important;
+  }
+
+  .footer-body {
+    text-align: center !important;
+  }
+  .home-about-description {
+    padding-top: 0px !important;
+  }
+  .aboutme-heading{
+    font-size: 3.6em;
+  }
+}
+
+.footer h3 {
+  font-size: 1em;
+  color: white !important;
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+}
+.footer-icons {
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+  padding: 0 !important;
+  z-index: 25;
+}
+
+.blockquote-footer {
+  color: #a588c0 !important;
 }

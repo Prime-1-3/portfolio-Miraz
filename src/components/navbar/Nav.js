@@ -1,14 +1,11 @@
 import React, { useState } from "react";
-import { Navbar, Nav, Container, Button } from "react-bootstrap";
+import { Navbar, Nav, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
 import {
-  AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
 } from "react-icons/ai";
-import { FaBlog } from "react-icons/fa";
 import "../../style.css";
 import { CgFileDocument } from "react-icons/cg";
 export default function NavbarComponent() {
@@ -35,16 +32,18 @@ export default function NavbarComponent() {
       <Container>
         <Navbar.Brand href="/">
           <div className="d-flex flex-row justify-content-between">
-            <img src="./profile.png" className="img-fluid logo" alt="brand" />
+            <img src="./profile.jpg" className="img-fluid logo" alt="brand" />
             <h5
               id="navhead"
               style={{
                 marginLeft: "21px",
+                marginRight: "210px",
+                boederRight: "1px solid #fbd9ad",
                 paddingTop: "6px",
                 color: "#fbd9ad",
               }}
             >
-              MD MAFUJUL HASAN
+              SK MIRAZ RAHMAN ANI
             </h5>
           </div>
         </Navbar.Brand>
@@ -59,10 +58,11 @@ export default function NavbarComponent() {
           <span></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav" className="navbarmain">
-          <Nav className="ml-auto" defaultActiveKey="#home">
+          <Nav className="ml-auto " defaultActiveKey="#home" style={{alignItems:"right"}}>
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+                <AiOutlineHome style={{ marginBottom: "2px", alignItems:"right" }} /> 
+                <p>Home</p>
               </Nav.Link>
             </Nav.Item>
 
@@ -75,7 +75,7 @@ export default function NavbarComponent() {
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
                 />{" "}
-                Projects
+                <p>Projects</p>
               </Nav.Link>
             </Nav.Item>
 
@@ -85,7 +85,8 @@ export default function NavbarComponent() {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+                <CgFileDocument style={{ marginBottom: "2px" }} /> 
+                <p>Resume</p>
               </Nav.Link>
             </Nav.Item>
 
@@ -95,30 +96,13 @@ export default function NavbarComponent() {
                 to="/certificatepage"
                 onClick={() => updateExpanded(false)}
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Certifications
+                <ImBlog style={{ marginBottom: "2px" }} /> 
+                <p>Certifications</p>
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/blogs"
-                onClick={() => updateExpanded(false)}
-              >
-                <FaBlog style={{ marginBottom: "2px" }} /> Blogs
-              </Nav.Link>
-            </Nav.Item>
+{/* enter new nav item */}
 
-            <Nav.Item className="fork-btn">
-              <Button
-                href="https://github.com/MD-MAFUJUL-HASAN/Personal-Portfolio"
-                target="_blank"
-                className="fork-btn-inner"
-              >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
-              </Button>
-            </Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Container>
