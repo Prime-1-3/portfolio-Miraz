@@ -20,13 +20,13 @@ export default function InfoContainer() {
                         <div>
                             <Nav justify variant="tabs" defaultActiveKey="/">
                                 <Nav.Item className="Navitem">
-                                    <Nav.Link as={Link} to="/" eventKey="link-1" style={{ fontSize: "17px", fontWeight: 700 }}>About</Nav.Link>
+                                    <Nav.Link as={Link} to="/" eventKey="link-1" style={{ fontSize: "17px", fontWeight: 700, backgroundColor: "transparent" }}>About</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link as={Link} to="technical-skill" eventKey="link-2" style={{ fontSize: "17px", fontWeight: 700 }}>Skills</Nav.Link>
+                                    <Nav.Link as={Link} to="technical-skill" eventKey="link-2" style={{ fontSize: "17px", fontWeight: 700, backgroundColor: "transparent" }}>Skills</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link as={Link} to="education-journey" eventKey="link-3" style={{ fontSize: "17px", fontWeight: 700 }}>Journey</Nav.Link>
+                                    <Nav.Link as={Link} to="education-journey" eventKey="link-3" style={{ fontSize: "17px", fontWeight: 700, backgroundColor: "transparent" }}>Journey</Nav.Link>
                                 </Nav.Item>
 
 
