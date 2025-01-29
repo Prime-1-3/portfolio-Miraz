@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/portfolio-Miraz/static/css/main.32eceacb.css",
+    "main.js": "/portfolio-Miraz/static/js/main.8402044d.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio-Miraz/static/js/453.1407b060.chunk.js",
+    "static/media/bg.jpg": "/portfolio-Miraz/static/media/bg.79b2b2a3f24007c25ee6.jpg",
+    "index.html": "/portfolio-Miraz/index.html",
+    "main.32eceacb.css.map": "/portfolio-Miraz/static/css/main.32eceacb.css.map",
+    "main.8402044d.js.map": "/portfolio-Miraz/static/js/main.8402044d.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio-Miraz/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32eceacb.css",
+    "static/js/main.8402044d.js"
+  ]
+}
