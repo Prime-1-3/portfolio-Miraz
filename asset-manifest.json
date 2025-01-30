@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio-Miraz/static/css/main.32eceacb.css",
-    "main.js": "/portfolio-Miraz/static/js/main.2775d775.js",
+    "main.js": "/portfolio-Miraz/static/js/main.b4a0d39a.js",
     "static/js/453.1407b060.chunk.js": "/portfolio-Miraz/static/js/453.1407b060.chunk.js",
     "static/media/bg.jpg": "/portfolio-Miraz/static/media/bg.79b2b2a3f24007c25ee6.jpg",
     "static/media/profile.jpg": "/portfolio-Miraz/static/media/profile.c4bd27b69891d6a27b0f.jpg",
     "index.html": "/portfolio-Miraz/index.html",
     "main.32eceacb.css.map": "/portfolio-Miraz/static/css/main.32eceacb.css.map",
-    "main.2775d775.js.map": "/portfolio-Miraz/static/js/main.2775d775.js.map",
+    "main.b4a0d39a.js.map": "/portfolio-Miraz/static/js/main.b4a0d39a.js.map",
     "453.1407b060.chunk.js.map": "/portfolio-Miraz/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.32eceacb.css",
-    "static/js/main.2775d775.js"
+    "static/js/main.b4a0d39a.js"
   ]
 }
