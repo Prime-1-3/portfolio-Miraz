@@ -5,14 +5,15 @@ import Typing from "./Typing";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn, FaFacebookF, FaGoogle } from "react-icons/fa";
 import InfoContainer from "../../components/about/InfoContainer";
+import profile from "../../images/profile.jpg";
 
 export default function Home() {
   const socialLinks = [
-  {href: 'https://github.com/Prime-1-3', icon: <AiFillGithub /> },
-  {href: 'https://www.linkedin.com/in/sk-miraz-rahman-ani-00ab6a326/', icon: <FaLinkedinIn /> },
-  {href: 'https://www.instagram.com/sk_miraz_rahman/', icon: <AiFillInstagram /> },
-  {href: 'https://www.facebook.com/Sk.Miraz.FB.profile', icon: <FaFacebookF /> },
-  {href: 'https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=skmirazrahman18@gmail.com', icon: <FaGoogle /> },
+    { href: 'https://github.com/Prime-1-3', icon: <AiFillGithub /> },
+    { href: 'https://www.linkedin.com/in/sk-miraz-rahman-ani-00ab6a326/', icon: <FaLinkedinIn /> },
+    { href: 'https://www.instagram.com/sk_miraz_rahman/', icon: <AiFillInstagram /> },
+    { href: 'https://www.facebook.com/Sk.Miraz.FB.profile', icon: <FaFacebookF /> },
+    { href: 'https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=skmirazrahman18@gmail.com', icon: <FaGoogle /> },
   ];
   return (
     <section className="home-section">
@@ -56,7 +57,7 @@ export default function Home() {
             <Col md={4} style={{ paddingBottom: 20 }}>
               <div className="img-home-main">
                 <img
-                  src="./profile.jpg"
+                  src={profile}
                   alt="home pic"
                   className="img-fluid"
                 />

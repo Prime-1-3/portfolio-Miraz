@@ -8,6 +8,7 @@ import {
 } from "react-icons/ai";
 import "../../style.css";
 import { CgFileDocument } from "react-icons/cg";
+import profile  from '../../images/profile.jpg';
 export default function NavbarComponent() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
@@ -30,9 +31,9 @@ export default function NavbarComponent() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/">
+        <Navbar.Brand href="/portfolio-Miraz">
           <div className="d-flex flex-row justify-content-between">
-            <img src="./profile.jpg" className="img-fluid logo" alt="brand" />
+            <img src={profile} className="img-fluid logo" alt="brand" />
             <h5
               id="navhead"
               style={{
@@ -61,7 +62,7 @@ export default function NavbarComponent() {
           <Nav className="ml-auto " defaultActiveKey="#home" >
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> 
+                <AiOutlineHome style={{ marginBottom: "2px" }} />
                 <p>Home</p>
               </Nav.Link>
             </Nav.Item>
@@ -85,7 +86,7 @@ export default function NavbarComponent() {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> 
+                <CgFileDocument style={{ marginBottom: "2px" }} />
                 <p>Resume</p>
               </Nav.Link>
             </Nav.Item>
@@ -96,12 +97,12 @@ export default function NavbarComponent() {
                 to="/certificatepage"
                 onClick={() => updateExpanded(false)}
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> 
+                <ImBlog style={{ marginBottom: "2px" }} />
                 <p>Certifications</p>
               </Nav.Link>
             </Nav.Item>
 
-{/* enter new nav item */}
+            {/* enter new nav item */}
 
           </Nav>
         </Navbar.Collapse>

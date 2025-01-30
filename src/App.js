@@ -15,7 +15,7 @@ import LearningJourney from './components/about/milestone/LearningJourney';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/portfolio-Miraz">
       <div className="App">
         <NavbarComponent />
         <Routes>
