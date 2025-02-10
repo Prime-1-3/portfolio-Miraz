@@ -20,7 +20,7 @@ const Particle = () => {
             options={{
                 particles: {
                     number: {
-                        value: 160,
+                        value: 20,
                         density: {
                             enable: true,
                             value_area: 1500,
@@ -45,7 +45,7 @@ const Particle = () => {
                         },
                     },
                     opacity: {
-                        value: 0.5,
+                        value: 0.1,
                         random: false,
                         anim: {
                             enable: false,

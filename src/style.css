@@ -278,7 +278,7 @@ html {
 .home-section {
   position: relative;
   z-index: 2;
-  background-image: var(--image-gradient), url(./images/bg.jpg);
+  background-image: var(--image-gradient), url(./images/bg.webp);
   background-position: top center;
   background-size: cover !important;
   background-repeat: no-repeat;
@@ -294,13 +294,13 @@ html {
 }
 
 .heading {
-  font-size: 4.4em !important;
+  font-size: 4.4rem !important;
   padding-left: 45px !important;
 }
 
 .heading-name {
-  font-size: 4.0em !important;
-  padding-left: 45px !important;
+  font-size: 3.5rem; 
+  padding-left: 45px;
 }
 
 .main-name {
@@ -309,18 +309,18 @@ html {
 }
 
 .Typewriter__wrapper {
-  font-size: 2.2em !important;
+  font-size: 2.2rem !important;
   color: #70c6ff !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
-  font-size: 2.4em !important;
+  font-size: 2.4rem !important;
   color: #cb70ff !important;
 }
 .typing-homeclass{
   padding-left: 45px;
   text-align: left;
-  font-size: 1.8em;
+  font-size: 1.8rem;
 }
 .sociallink-home{
   padding-left: 40px;
@@ -329,7 +329,7 @@ html {
 }
 @media (max-width: 767px) {
   .Typewriter__wrapper {
-    font-size: 1.2em !important;
+    font-size: 1.2rem !important;
     font-weight: 500 !important;
     position: absolute !important;
   }
@@ -337,14 +337,14 @@ html {
     display: none !important;
   }
   .heading {
-    font-size: 3em !important;
+    font-size: 3rem !important;
     padding-left: 16px !important;
   }
   .home-content {
     padding: 6rem 0 2rem !important;
   }
   .heading-name {
-    font-size: 3.0em !important;
+    font-size: 3.0rem !important;
     padding-left: 16px !important;
   }
   .typing-homeclass{
@@ -376,8 +376,8 @@ html {
   width: 40px !important;
   height: 40px !important;
   text-align: center !important;
-  font-size: 1.4em !important;
-  line-height: 1.5em !important;
+  font-size: 1.4rem !important;
+  line-height: 1.5rem !important;
   background: rgba(242, 203, 151, 0.972) !important;
   border-radius: 50% !important;
   transition: 0.5s !important;

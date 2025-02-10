@@ -5,7 +5,7 @@ import Typing from "./Typing";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn, FaFacebookF, FaGoogle } from "react-icons/fa";
 import InfoContainer from "../../components/about/InfoContainer";
-import profile from "../../images/profile.jpg";
+import profile from "../../images/profile.avif";
 
 export default function Home() {
   const socialLinks = [
@@ -34,7 +34,7 @@ export default function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> SK MIRAZ RAHMAN ANI</strong>
+                <p className="main-name"> SK MIRAZ RAHMAN ANI</p>
               </h1>
 
               <div className="typing-homeclass">
